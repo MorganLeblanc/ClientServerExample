@@ -5,7 +5,7 @@ The server generates a base and a number in that base, which it then sends to th
 
 The client checks if this possible prime factor is a valid prime factor before returning its results to the server. 
 
-The server distributes prime factors in this way using a round robin system, and it ends when no clients are connected, or when n prime factors are found in a row.
+The server distributes prime factors in this way using a round robin system, and it ends when no clients are connected, or when n prime factors are found in a row. Clients are handled using seperate threads.
 
 How to compile programs:
 
