@@ -27,3 +27,5 @@ or
 ./client
 
 ./server
+
+ini files can be changed to adjust necessary parameters.
